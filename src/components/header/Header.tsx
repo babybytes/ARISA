@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link'
+
 
 const Header = () => (
 	<div className=" fixed w-full z-10">
@@ -6,11 +8,14 @@ const Header = () => (
 			<div className="">
 				<img src="/images/logo_arisa.svg" />
 			</div>
-			<a href="#" className="text-neutral-300 pt-1 text-2xl ">
-				About
-			</a>
+			<Link href="/About">
+				<a  className="text-neutral-300 pt-1 text-2xl ">
+					About
+				</a>
+			</Link>
+			
 		</div>
       </div>
   );
   
-  export default Header;
+ export default Header;
