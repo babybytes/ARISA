@@ -1,15 +1,15 @@
-import About from '../components/screens/about/About' 
-{/** import Header from '../components/header/Header'
-import Landing from '../components/landing/Landing'*/}
+{/** import About from '../components/screens/about/About' */}
+import Header from '../components/header/Header'
+import Landing from './Landing'
 
 export default function Home() {
   return (
     <div className="  w-full h-full ">
      
 
-       <About /> 
-     {/**  <Header />
-      <Landing /> */}
+       {/**<About /> */ }
+      <Header />
+      <Landing /> 
 
 
     </div>

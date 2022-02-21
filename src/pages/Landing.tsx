@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 
 
 const Landing = () => (
@@ -26,18 +26,22 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							Self-introduction and guinea pig
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Night' >
+							<div className="pt-10">
 								
-							</button>
-							
-						</div>
+									<div className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+										<span className="text-black text-2xl  font-Roboto">
+											Read More
+										</span>
+										<span className="">
+											<img src="/images/arrow1.png" />
+										</span>
+										
+									</div>
+								
+								
+							</div>
+						</Link>
 						
 					</div>
 				</div>
