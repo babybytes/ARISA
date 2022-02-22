@@ -29,7 +29,7 @@ const Landing = () => (
 						<Link href='/Night' >
 							<div className="pt-10">
 								
-									<div className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
 										<span className="text-black text-2xl  font-Roboto">
 											Read More
 										</span>
@@ -37,7 +37,7 @@ const Landing = () => (
 											<img src="/images/arrow1.png" />
 										</span>
 										
-									</div>
+									</button>
 								
 								
 							</div>
@@ -59,18 +59,21 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							Website rebranding for an industrial waste disposer
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Club' >
+							<div className="pt-10">
+								<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<span className="text-black text-2xl  font-Roboto">
+										Read More
+									</span>
+									<span className="">
+										<img src="/images/arrow1.png" />
+									</span>
+										
+								</button>
 									
-							</button>
-								
-						</div>	
+							</div>	
+						</Link>
+						
 					</div>
 				</div>
 			</div>
