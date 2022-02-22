@@ -90,18 +90,21 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							Designed, coded, and deployed in 3 weeks
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Heart' >
+							<div className="pt-10">
+								<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<span className="text-black text-2xl  font-Roboto">
+										Read More
+									</span>
+									<span className="">
+										<img src="/images/arrow1.png" />
+									</span>
+										
+								</button>
 									
-							</button>
-								
-						</div>	
+							</div>	
+						</Link>
+						
 					</div>
 				</div>
 			</div>
@@ -118,18 +121,21 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							Designed app, web admin, and marketing website
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Spade' >
+							<div className="pt-10">
+								<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<span className="text-black text-2xl  font-Roboto">
+										Read More
+									</span>
+									<span className="">
+										<img src="/images/arrow1.png" />
+									</span>
+										
+								</button>
 									
-							</button>
-								
-						</div>	
+							</div>	
+						</Link>
+						
 					</div>
 				</div>
 			</div>
@@ -146,18 +152,21 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							From data analysis to implementation
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Diamond' >
+							<div className="pt-10">
+								<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<span className="text-black text-2xl  font-Roboto">
+										Read More
+									</span>
+									<span className="">
+										<img src="/images/arrow1.png" />
+									</span>
+										
+								</button>
 									
-							</button>
-								
-						</div>	
+							</div>
+						</Link>
+							
 					</div>
 				</div>
 			</div>
@@ -174,18 +183,21 @@ const Landing = () => (
 						<div className="text-6xl  w-[80%] text-white font-Poppins font-semibold">
 							First portfolio to share works at intern
 						</div>
-						<div className="pt-10">
-							<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
-								<span className="text-black text-2xl  font-Roboto">
-									Read More
-								</span>
-								<span className="">
-									<img src="/images/arrow1.png" />
-								</span>
+						<Link href='/Joker' >
+							<div className="pt-10">
+								<button className=" flex rounded-full border bg-neutral-300 w-[30%] h-[3.5rem] space-x-[10%] justify-center items-center">
+									<span className="text-black text-2xl  font-Roboto">
+										Read More
+									</span>
+									<span className="">
+										<img src="/images/arrow1.png" />
+									</span>
+										
+								</button>
 									
-							</button>
-								
-						</div>	
+							</div>	
+						</Link>
+						
 					</div>
 				</div>
 			</div>
