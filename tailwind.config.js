@@ -10,6 +10,7 @@ module.exports = {
       },
       colors:{
         back: '#090909',
+        line: '#686868'
       }
     },
   },
