@@ -21,7 +21,7 @@ const Header = () => {
 					</motion.div>
 				</Link>
 				<Link href="/Ace">
-					<motion.a  initial="hidden" animate="visible" variants={list}  className="text-neutral-300 pt-1 text-2xl ">
+					<motion.a  initial="hidden" animate="visible" variants={list}  className="text-neutral-300 pt-1 text-2xl cursor-pointer">
 						About
 					</motion.a>
 				</Link>
