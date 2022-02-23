@@ -1,6 +1,6 @@
 import React from 'react';
 import Project5 from '../components/screens/projects/Project5'
-import Header from '../components/header/Header'
+import Header from './Header'
 import Footer from '../components/footer/Footer'
 
 const Diamond = () => (
@@ -14,8 +14,7 @@ const Diamond = () => (
 		<div className="flex">
 			<Footer />
 		</div>
-      	</div>
-      
-  );
+      	</div>      
+);
   
-  export default Diamond;
+export default Diamond;

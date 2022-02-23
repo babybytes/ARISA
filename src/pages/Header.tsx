@@ -8,7 +8,7 @@ const Header = () => (
 			<div className="">
 				<img src="/images/logo_arisa.svg" />
 			</div>
-			<Link href="../components/screen/about/About.tsx">
+			<Link href="/Ace">
 				<a  className="text-neutral-300 pt-1 text-2xl ">
 					About
 				</a>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Project2 from '../components/screens/projects/Project2'
-import Header from '../components/header/Header'
+import Header from './Header'
 import Footer from '../components/footer/Footer'
 
 const Club = () => (
