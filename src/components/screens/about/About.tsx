@@ -3,16 +3,16 @@ import React from 'react';
 
 const About = () => (
 	<div className="w-full h-full">
-			<div className="w-full  flex justify-between pt-[10%] items-center">
-				<div className="flex flex-col w-[30%]">
+			<div className=" flex pt-[10%] items-center">
+				<div className="flex flex-col">
 					<div>
-						<img src="/images/profile.png"/>
+						<img src="/images/profile.png" className=" w-[60%]"/>
 					</div>
 					<div>
 						<img src="/images/message.svg" />
 					</div>
 				</div>	
-				<div className="w-full flex flex-col">
+				<div className=" flex flex-col">
 					<div className="text-neutral-400 font-Roboto tracking-[0.2rem] text-sm">
 						UIUX Designer
 					</div>
@@ -22,14 +22,14 @@ const About = () => (
 					<div className="text-white text-8xl font-Poppins font-bold italic tracking-wider ">
 						I'm Arisa!
 					</div>
-					<div className="w-[32%]  font-Roboto text-neutral-400 leading-loose">
-						<p className="w-[90%]">
+					<div className=" w-[50%]  font-Roboto text-neutral-400 leading-loose">
+						<p className="">
 							Born in 1997, raised in Japan. Self-taught in coding and learned design from professionals as a full-time intern at a start-up.
 						</p>
-						<p className="w-[95%]">
+						<p className="">
 							I love to distill highly complex matters into clean as a simple thinker doubting premises. Also to explore with my hands and my eyes, touching and examining the world with rationalism and spirited curiosity. I am a natural maker, building the useful for the fun of it, and learning from my environment as I go.
 						</p>
-						<p className="w-[95%]">
+						<p className="">
 							Currently, participating as a UX designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
 						</p>
 					</div>
