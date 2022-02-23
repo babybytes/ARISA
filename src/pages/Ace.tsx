@@ -1,22 +1,21 @@
 import React from 'react';
-import Project4 from '../components/screens/projects/Project4'
-import Header from './Header'
+import About from '../components/screens/about/About'
+import Header2 from '../components/screens/about/Header2'
 import Footer from '../components/footer/Footer'
 
-const Spade = () => (
+const Joker = () => (
 	<div className="w-full h-screen flex flex-col ">
 		<div className="flex">
-			<Header />
+			<Header2 />
 		</div>
 		<div className="flex grow ">
-			<Project4 />
+			<About />
 		</div>
 		<div className="flex">
 			<Footer />
 		</div>
       	</div>
       
-      
   );
   
-  export default Spade;
+  export default Joker;
