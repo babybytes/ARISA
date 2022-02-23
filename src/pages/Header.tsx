@@ -17,7 +17,7 @@ const Header = () => {
 			<div className="flex pt-10 justify-around space-x-[35%] ">
 				<Link href="/" >
 					<motion.div initial="hidden" animate="visible" variants={item}  className="cursor-pointer">
-						<img src="/images/logo_arisa.svg" />
+						<img src="/images/logo_arisa.svg" alt=""/>
 					</motion.div>
 				</Link>
 				<Link href="/Ace">
