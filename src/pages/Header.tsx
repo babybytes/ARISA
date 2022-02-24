@@ -13,7 +13,7 @@ const Header = () => {
   		hidden: { opacity: 0, x: 100 },
 	}
 	return(
-		<div className=" fixed w-full z-10">
+		<div className=" fixed w-full z-10 ">
 			<div className="flex pt-10 justify-around space-x-[35%] ">
 				<Link href="/" >
 					<motion.div initial="hidden" animate="visible" variants={item}  className="cursor-pointer">
