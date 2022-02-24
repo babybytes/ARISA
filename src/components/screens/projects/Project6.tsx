@@ -124,7 +124,7 @@ const Project6 = () => (
                     	</div>
                 </div>
                 <div className="ml-[36.2%]">
-			<div className="pt-[10%]">
+			<div className="pt-[5%]">
 				<div className="text-3xl font-Poppins font-light tracking-wide">
 					Code
 				</div>
