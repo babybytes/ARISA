@@ -82,7 +82,7 @@ const Project1 = () => (
                 Process
             </div>
                 <div className="lg:flex    lg:pt-[5%] ml-4 lg:ml-0">
-                    <div className="lg:ml-[12.7%] lg:visible invisible">
+                    <div className="lg:ml-[12.7%] lg:block hidden">
                         <div className="font-Roboto ">
                             Research
                         </div>
@@ -93,7 +93,7 @@ const Project1 = () => (
                             Research
                         </div>
                     </div>
-                    <div className="lg:ml-[20%] md:ml-[5%]">
+                    <div className="lg:ml-[20%] md:ml-[5%] pt-10 md:pt-0">
                         <div className="text-3xl font-Poppins font-light tracking-wide">
                             Scope
                         </div>
