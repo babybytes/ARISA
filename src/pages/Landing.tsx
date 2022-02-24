@@ -47,30 +47,27 @@ const Landing = () => {
 					{/**First Project  */ }
 					<div  className=" pt-[10%]">
 						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[10%] items-center">
-							<div className="">
+							<div className="md:w-[75%] lg:w-[60%]">
 								<img src="/images/image1.png" />
 							</div>
-							<div className=" px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className=" px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									Portfolio Website
 								</div>
-								<div className="text-4xl  w-[90%] text-white font-Poppins font-semibold">
+								<div className="text-4xl md:text-3xl w-[95%] lg:text-5xl text-white font-Poppins font-semibold lg:leading-tight">
 									Self-introduction and guinea pig
 								</div>
 								<Link href='/Night' >
 									<div className="pt-5">
-										
-											<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-												<span className="text-black text-lg  font-Roboto">
-													Read More
-												</span>
-												<span className="">
-													<img src="/images/arrow1.png" />
-												</span>
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
+												Read More
+											</span>
+											<span className="">
+												<img src="/images/arrow1.png" />
+											</span>
 												
-											</button>
-										
-										
+										</button>
 									</div>
 								</Link>
 								
@@ -80,28 +77,27 @@ const Landing = () => {
 					{/** Second Project */ }
 					<div className="w-full h-full  ">
 						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%] items-center">
-							<div className="">
+							<div className="lg:w-[96%]">
 								<img src="/images/image2.png" />
 							</div>
-							<div className="px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className="px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									Corporate Website & Blog
 								</div>
-								<div className="text-4xl  w-[100%] text-white font-Poppins font-semibold">
+								<div className="md:text-3xl text-4xl lg:text-5xl w-[85%] text-white font-Poppins font-semibold lg:leading-tight">
 									Website rebranding for an industrial waste disposer
 								</div>
 								<Link href='/Club' >
 									<div className="pt-5">
-										<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-											<span className="text-black text-lg  font-Roboto">
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
 												Read More
 											</span>
 											<span className="">
 												<img src="/images/arrow1.png" />
 											</span>
 												
-										</button>
-											
+										</button>	
 									</div>	
 								</Link>
 								
@@ -110,29 +106,28 @@ const Landing = () => {
 					</div>
 					{/** Third Project */ }
 					<div className="w-full h-full  ">
-						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%] items-center">
-							<div className=" ">
+						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col pt-[20%] md:flex-row items-center">
+							<div className=" md:w-[95%] lg:w-[79%]">
 								<img src="/images/image3.png" />
 							</div>
-							<div className="px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className="px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									Product Website
 								</div>
-								<div className="text-4xl  w-[100%] text-white font-Poppins font-semibold">
+								<div className="md:text-3xl text-4xl  lg:text-5xl text-white font-Poppins font-semibold lg:leading-tight">
 									Designed, coded, and deployed in 3 weeks
 								</div>
 								<Link href='/Heart' >
 									<div className="pt-5">
-										<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-											<span className="text-black text-lg  font-Roboto">
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
 												Read More
 											</span>
 											<span className="">
 												<img src="/images/arrow1.png" />
 											</span>
 												
-										</button>
-											
+										</button>	
 									</div>
 								</Link>
 								
@@ -141,29 +136,28 @@ const Landing = () => {
 					</div>
 					{ /** Fourth Project */ }
 					<div className="w-full h-full  ">
-						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%] items-center">
-							<div className=" ">
-								<img src="/images/image4.png" />
+						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%]  items-center">
+							<div className="md:w-[120%] lg:w-[95%] ">
+								<img src="/images/image4.png" className="lg:w-[90%] " />
 							</div>
-							<div className="px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className="px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									B2B Streaming Product
 								</div>
-								<div className="text-4xl  w-[100%] text-white font-Poppins font-semibold">
+								<div className="md:text-3xl text-4xl w-[80%] lg:text-5xl text-white font-Poppins font-semibold lg:leading-tight">
 									Designed app, web admin, and marketing website
 								</div>
 								<Link href='/Spade' >
 									<div className="pt-5">
-										<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-											<span className="text-black text-lg  font-Roboto">
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
 												Read More
 											</span>
 											<span className="">
 												<img src="/images/arrow1.png" />
 											</span>
 												
-										</button>
-											
+										</button>	
 									</div>	
 								</Link>
 								
@@ -173,28 +167,27 @@ const Landing = () => {
 					{ /** Fifth Project */ }
 					<div className="w-full h-full  ">
 						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%] items-center">
-							<div className=" ">
-								<img src="/images/image5.png" />
+							<div className="md:w-[90%] lg:w-[74%]">
+								<img src="/images/image5.png" className="lg:w-[85%]"/>
 							</div>
-							<div className="px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className="px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									Corporate Website & Blog
 								</div>
-								<div className="text-4xl  w-[100%] text-white font-Poppins font-semibold">
+								<div className="md:text-3xl text-4xl  lg:text-5xl text-white font-Poppins font-semibold lg:leading-tight">
 									From data analysis to implementation
 								</div>
 								<Link href='/Diamond' >
 									<div className="pt-5">
-										<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-											<span className="text-black text-lg  font-Roboto">
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
 												Read More
 											</span>
 											<span className="">
 												<img src="/images/arrow1.png" />
 											</span>
 												
-										</button>
-											
+										</button>	
 									</div>
 								</Link>
 									
@@ -204,28 +197,27 @@ const Landing = () => {
 					{ /** Sixth Project */ }
 					<div className="w-full h-full  ">
 						<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2}} className="w-full h-full flex flex-col md:flex-row pt-[20%] items-center">
-							<div className="">
-								<img src="/images/image6.png" />
+							<div className="md:w-[90%] lg:w-[75%]">
+								<img src="/images/image6.png" className="lg:w-[85%]" />
 							</div>
-							<div className="px-[5%] flex-col flex  space-y-2 pt-5 md:pt-0">
+							<div className="px-[5%] flex-col flex  space-y-2 lg:space-y-5 pt-5 md:pt-0">
 								<div className="text-neutral-500 font-Roboto tracking-[0.15rem] text-sm">
 									Portfolio Website
 								</div>
-								<div className="text-4xl  w-[100%] text-white font-Poppins font-semibold">
+								<div className="md:text-3xl text-4xl  lg:text-5xl text-white font-Poppins font-semibold lg:leading-tight">
 									First portfolio to share works at intern
 								</div>
 								<Link href='/Joker' >
 									<div className="pt-5">
-										<button className=" flex rounded-full border bg-neutral-300 w-[45%] h-[2.5rem] space-x-[5%]  justify-center items-center">
-											<span className="text-black text-lg  font-Roboto">
+										<button className=" flex rounded-full border bg-neutral-300 w-[45%] lg:w-[35%] h-[2.5rem] lg:h-[3rem] space-x-[5%]  justify-center items-center">
+											<span className="text-black text-lg lg:text-xl font-Roboto">
 												Read More
 											</span>
 											<span className="">
 												<img src="/images/arrow1.png" />
 											</span>
 												
-										</button>
-											
+										</button>	
 									</div>
 								</Link>
 								

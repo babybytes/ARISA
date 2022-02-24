@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex grow ">
         <Landing />
       </div>
-      <div className="flex">
+      <div className="flex  ">
         <Footer />
       </div>
     </div>
